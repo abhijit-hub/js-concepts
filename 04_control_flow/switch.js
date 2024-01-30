@@ -26,4 +26,7 @@ switch (month) {
     default:
         console.log("default case match");
         break;
+
+     //   if we don't use break statment then it won't execute rest of the cases. 
+         after one case is matched  it will execute all the statments once, except Default statment.
 }
