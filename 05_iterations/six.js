@@ -1,19 +1,25 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
-// const values = coding.forEach( (item) => {
-//     //console.log(item);
-//     return item
-// } )
+ const values = coding.forEach( (item) => {
+     console.log(item);
+     return item
+ } )
 
-// console.log(values);
+// For each basically never retrun any value even if you use return statment. 
+    
+
+ console.log(values);
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+const nums=myNums.filter( (num) =>num>4);
+
+in Filter it able to return values which satiesfy the conditions.  
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
-
+above it won't return anything because you use curly bracket means you have started scope i.e 
 // const newNums = []
 
 // myNums.forEach( (num) => {
